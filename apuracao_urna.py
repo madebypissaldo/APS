@@ -41,8 +41,5 @@ if verificar_senha(acesso, hash_armazenado):
     print(f"Joao: {vote_counts[2]}")
     print(f"Maria: {vote_counts[3]}")
 else:
-<<<<<<< Updated upstream
     print('senha inválida!')
-=======
-    print('senha inválida!')
->>>>>>> Stashed changes
+
