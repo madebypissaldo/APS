@@ -9,7 +9,7 @@ def verificar_senha(senha_fornecida, hash_armazenado):
     return gerar_hash(senha_fornecida) == hash_armazenado
 
 # Hash armazenado (por exemplo, de uma senha já salva)
-hash_armazenado = gerar_hash("penis")
+hash_armazenado = gerar_hash("2209")
 
 # Verificação de senha
 senha_fornecida = input('digite sua senha: ')
